@@ -1,0 +1,36 @@
+#headerBg {
+  background: var(--cor-);
+  
+
+
+
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:100px;
+  gap: 20px;
+}
+#navList {
+  display:flex;
+  gap: 20px;
+  align-items: center;
+}
+
+@media (max-width: 550px) {
+  #nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  #navList {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
