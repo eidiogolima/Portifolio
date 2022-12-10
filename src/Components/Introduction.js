@@ -10,8 +10,8 @@ const Introduction = () => {
       </div>
 
       <div id={styles.pharse}>
-        <h5 id = {styles.creator}>(CRIADOR DE SITES)</h5>
-        <h1 className="font-1-xl">UI/UX Design & Front-End developer</h1>
+        <h5 id = {styles.creator} className = "font-2-xs cor-6">(CRIADOR DE SITES)</h5>
+        <h1 className="font-1-xl">Desenvolvedor Front-End & UX|UI Design </h1>
         <h5 className='font-1-s' id={styles.online}>Disponivel para novos projetos</h5>
 
         <div id={styles.buttons}>
@@ -30,7 +30,7 @@ const Introduction = () => {
           <button>
             {' '}
             <a href = "https://github.com/eidiogolima" className="button-border">
-              Git Hub
+              GitHub
             </a>
           </button>
         </div>

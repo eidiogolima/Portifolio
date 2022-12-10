@@ -10,7 +10,7 @@ const Header = () => {
     <header id = {styles.headerBg}>
       <nav className='container' id = {styles.nav}>
 
-        <h1 className='font-1-l'> <Link to = 'home'>DIOGO LIMA</Link> </h1>
+        <h1 className='font-1-l'> <Link to = '/'>DIOGO LIMA</Link> </h1>
 
         <ul id= {styles.navList}>
           <Link to = 'projetos' className='font-1-s'>Projetos</Link>

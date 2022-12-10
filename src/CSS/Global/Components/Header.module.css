@@ -10,8 +10,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height:100px;
+  padding: 20px 20px;
   gap: 20px;
+}
+#nav h1 {
+  font-weight: 600;
 }
 #navList {
   display:flex;
@@ -19,7 +22,7 @@
   align-items: center;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 511px) {
   #nav {
     flex-wrap: wrap;
     justify-content: center;
