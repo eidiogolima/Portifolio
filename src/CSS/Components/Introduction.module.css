@@ -1,7 +1,7 @@
 #mainPharse {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   gap: 20px;
   padding: 80px 20px; 
 }
@@ -69,6 +69,7 @@
 
 #img img{
   width:100%;
+  height: fit-content;
   border-radius: 50%;
 }
 
