@@ -1,0 +1,12 @@
+#createBg {
+  background: var(--cor-9);
+  padding: 100px 0;
+}
+
+.card {
+  margin-bottom: 32px;
+}
+.card h1 {
+  margin-bottom: 20px;
+  color: var(--cor-p1);
+}

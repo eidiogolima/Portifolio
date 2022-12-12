@@ -1,9 +1,5 @@
 #headerBg {
   background: var(--cor-);
-  
-
-
-
 }
 
 #nav {
@@ -20,6 +16,17 @@
   display:flex;
   gap: 20px;
   align-items: center;
+}
+#navList a {
+  padding: 1rem 2rem;
+  transition: .5s;
+
+}
+
+#navList a:hover {
+  border-radius: 4px;
+  border: 1px solid var(--cor-11);
+  padding:1rem 3rem
 }
 
 @media (max-width: 511px) {
