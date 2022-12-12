@@ -19,15 +19,17 @@ const Header = () => {
           <Link to="blog" className="font-1-s">
             Blog
           </Link> */}
-          <a
-            target="_blank"
-            rel="noreferrer noopener"
-            href="https://wa.me/5511915647291"
-            className="button-border font-1-s"
-          >
-            {' '}
-            Contato
-          </a>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer noopener"
+              href="https://wa.me/5511915647291"
+              className="button-border font-1-s"
+            >
+              {' '}
+              Contato
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

@@ -27,7 +27,7 @@
 }
 
 #list a {
-  color: var(--cor-p1);
+  color: var(--cor-p7);
 }
 
 @media(max-width:1048px) {

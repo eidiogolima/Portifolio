@@ -6,13 +6,13 @@ const Introduction = () => {
     <section id={styles.homeBg}>
     <div className="container" id = {styles.mainPharse}>
       <div id={styles.img}>
-        <img src={Foto} alt="" />
+        <img width  = '670' height = '669' src={Foto} alt=""/>
       </div>
 
       <div id={styles.pharse}>
-        <h5 id = {styles.creator} className = "font-2-xs cor-6">(DESENVOLVEDOR DE SITES)</h5>
+        <p id = {styles.creator} className = "font-2-xs cor-7">(DESENVOLVEDOR DE SITES)</p>
         <h1 className="font-1-xl">Desenvolvedor Front-End & UX|UI Design </h1>
-        <h5 className='font-1-s' id={styles.online}>Disponivel para novos projetos</h5>
+        <p className='font-1-s' id={styles.online}>Disponivel para novos projetos</p>
 
         <div id={styles.buttons}>
           <button>

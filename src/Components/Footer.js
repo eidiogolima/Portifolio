@@ -7,7 +7,7 @@ const Footer = () => {
         <div id={styles.grid}>
           <h1 className="font-1-l cor-2">DIOGO</h1>
           <div className={styles.cardFooter}>
-            <h3 className={styles.title + ' font-1-l cor-2'}>Contatos</h3>
+            <h1 className={styles.title + ' font-1-l cor-2'}>Contatos</h1>
             <ul className={styles.list}>
               <li className={styles.item + ' font-2-s cor-6'}>
                 {' '}
@@ -40,7 +40,7 @@ const Footer = () => {
               href="https://wa.me/5511915647291"
               className="cor-p1"
             >
-              aqui
+              aqui (WhatsApp)
             </a>
           </p>
         </div>
