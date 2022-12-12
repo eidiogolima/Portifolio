@@ -18,7 +18,7 @@ const Projects = () => {
         </div>
 
         <div id={styles.carroselCard}>
-          <Card img={MotorsHibrid} nome="MotorsHibrid" link = ''/>
+          <Card img={MotorsHibrid} nome="MotorsHibrid" />
           <Card img={SixCode} nome="Six Code" />
           <Card img={Thiago} nome="Landing Page" />
         </div>
