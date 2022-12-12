@@ -24,10 +24,14 @@ const Projects = () => {
         </div>
 
         <div id={styles.carroselCard}>
+          <Card img={Calhas} nome="Só Calhas" />
           <Card img={Imobiliaria} nome="Imobiliaria" />
           <Card img={Bolos} nome="Bolos Thay" />
-          <Card img={Calhas} nome="Calhas" />
+         
+        
         </div>
+
+       
 
 
       </div>
