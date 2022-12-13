@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <Head
         title="Diogo Lima | Desenvolvedor de sites"
-        description="Olá sou Diogo Lima Desenvolvedor de sites e UX|UI Designer, tenha o seu site feito em pouco tempo mas com muita qualidade, aplie seu negocio com um site, seus concorrentes já tem só falta você!"
+        description="Olá me chamo Diogo Lima e sou Desenvolvedor de sites e UX|UI Designer. Tenha o seu site feito por um profissional na área em pouco tempo e com muita qualidade. O site irá te ajudar a vender mais seu produto/serviço. Seus concorrentes já tem só falta você! ler mais..."
       />
       <Introduction />
       <Projects />
