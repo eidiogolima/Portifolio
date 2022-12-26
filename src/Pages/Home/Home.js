@@ -13,6 +13,7 @@ const Home = () => {
         title="Diogo Lima | Desenvolvedor de sites"
         description="Olá me chamo Diogo Lima e sou Desenvolvedor de sites e UX|UI Designer. Tenha o seu site feito por um profissional na área em pouco tempo e com muita qualidade. O site irá te ajudar a vender mais seu produto/serviço. Seus concorrentes já tem só falta você! ler mais..."
       />
+      
       <Introduction />
       <Projects />
       <WhyCreateSite />

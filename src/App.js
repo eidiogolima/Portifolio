@@ -7,8 +7,11 @@ import './CSS/Global/Utilits/Colors.css';
 import './CSS/Global/Utilits/Typography.css';
 import './CSS/Global/Utilits/Buttons.css';
 import './CSS/Global/Utilits/Form.css';
+import ReactGA from 'react-ga'; 
 
+const TRACKING_ID = "UA-252728847-1";
 
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
+
+    
   );
 }
 
