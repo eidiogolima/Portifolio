@@ -2,7 +2,6 @@ import React from 'react';
 import Footer from '../../Components/Footer';
 import Introduction from '../../Components/Introduction';
 import Projects from '../../Components/Projects';
-import Training from '../../Components/Training';
 import WhyCreateSite from '../../Components/WhyCreateSite';
 import Head from '../../Global/Head';
 // import styles from '../../CSS/Pages/Home.module.css';
@@ -16,7 +15,6 @@ const Home = () => {
       />
       <Introduction />
       <Projects />
-      <Training />
       <WhyCreateSite />
       <Footer />
     </>
